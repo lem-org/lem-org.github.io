@@ -11,8 +11,8 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Products"
-  pageRef = "products"
+  name = "Training as a Service"
+  pageRef = "training_as_a_service"
   weight = 10
 
 [[main]]

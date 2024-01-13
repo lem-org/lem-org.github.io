@@ -1,6 +1,6 @@
 +++
 # https://gohugo.io/content-management/front-matter/
-title = 'What we do'
+title = 'Training as a Service'
 cardView = true
 +++
 

@@ -4,7 +4,8 @@
 
 theme = "blowfish"
 baseURL = "https://your_domain.com/"
-defaultContentLanguage = "zh-cn"
+# defaultContentLanguage = "zh-cn"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles

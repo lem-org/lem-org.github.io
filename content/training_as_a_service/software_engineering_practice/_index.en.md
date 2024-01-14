@@ -1,7 +1,6 @@
-+++
-# https://gohugo.io/content-management/front-matter/
-title = 'Software Engineering Practice'
-+++
+---
+title: 'Software Engineering Practice'
+---
 
 <!--
 https://www.xenonstack.com/blog/test-driven-development

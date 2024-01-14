@@ -1,7 +1,6 @@
-+++
-# https://gohugo.io/content-management/front-matter/
-title = '软件工程实践'
-+++
+---
+title: '软件工程实践'
+---
 
 <!--
 https://www.xenonstack.com/blog/test-driven-development

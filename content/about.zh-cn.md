@@ -1,7 +1,6 @@
-+++
-# https://gohugo.io/content-management/front-matter/
-title = '关于我们'
-+++
+---
+title: '关于我们'
+---
 
 <!--
 https://www.thoughtworks.com/what-we-do

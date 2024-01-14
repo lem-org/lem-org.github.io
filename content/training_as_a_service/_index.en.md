@@ -1,8 +1,6 @@
-+++
-# https://gohugo.io/content-management/front-matter/
-title = 'Training as a Service'
-cardView = true
-+++
+---
+title: 'Training as a Service'
+---
 
 <!--
 https://www.thoughtworks.com/en-au/about-us

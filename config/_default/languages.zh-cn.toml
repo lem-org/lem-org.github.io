@@ -1,11 +1,11 @@
-languageCode = "en"
-languageName = "English"
+languageCode = "zh-cn"
+languageName = "Chinese"
 weight = 1
-# title = "LEM"
+title = "兰默"
 
 [params]
-  displayName = "English"
-  isoCode = "en"
+  displayName = "Chinese"
+  isoCode = "zh-cn"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "img/logo.png"
@@ -15,7 +15,7 @@ weight = 1
   copyright = "© 2024 LEM, Inc."
 
 [author]
-#   name = "LEM"
+  name = " "
   image = "img/text_logo.png"
   headline = "Lean. Empower. Motivated"
 #   bio = "A little bit about you"

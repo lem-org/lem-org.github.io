@@ -1,8 +1,17 @@
-[Install Hugo](https://gohugo.io/installation/macos/#homebrew)
+# Hugo
+
+## [Install Hugo](https://gohugo.io/installation/macos/#homebrew)
 
 ```sh
 brew install hugo
 ```
+
+## Multilingual
+
+See:
+- https://gohugo.io/content-management/multilingual/
+- https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/
+- https://blowfish.page/docs/configuration/#language-and-i18n
 
 # Congo
 
@@ -12,6 +21,8 @@ brew install hugo
 ```sh
 git submodule add -b stable https://github.com/jpanther/congo.git themes/congo
 ```
+
+[Set up theme configuration files](https://jpanther.github.io/congo/docs/installation/#set-up-theme-configuration-files)
 
 [Update using git](https://jpanther.github.io/congo/docs/installation/#update-using-git)
 
@@ -90,3 +101,5 @@ git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blo
 ```sh
 git submodule update --remote --merge
 ```
+
+[Set up theme configuration files](https://blowfish.page/docs/installation/#set-up-theme-configuration-files)

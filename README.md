@@ -1,3 +1,7 @@
+# Logo
+
+[A website for creating transparent png](https://onlinepngtools.com/create-transparent-png)
+
 # Hugo
 
 ## [Install Hugo](https://gohugo.io/installation/macos/#homebrew)
@@ -8,7 +12,8 @@ brew install hugo
 
 ## Multilingual
 
-See:
+### Reference
+
 - https://gohugo.io/content-management/multilingual/
 - https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-1-managing-content-translation/
 - https://blowfish.page/docs/configuration/#language-and-i18n
@@ -16,21 +21,21 @@ See:
 # Congo
 
 
-[Install using git](https://jpanther.github.io/congo/docs/installation/#install-using-git)
+## [Install using git](https://jpanther.github.io/congo/docs/installation/#install-using-git)
 
 ```sh
 git submodule add -b stable https://github.com/jpanther/congo.git themes/congo
 ```
 
-[Set up theme configuration files](https://jpanther.github.io/congo/docs/installation/#set-up-theme-configuration-files)
+## [Set up theme configuration files](https://jpanther.github.io/congo/docs/installation/#set-up-theme-configuration-files)
 
-[Update using git](https://jpanther.github.io/congo/docs/installation/#update-using-git)
+## [Update using git](https://jpanther.github.io/congo/docs/installation/#update-using-git)
 
 ```sh
 git submodule update --remote --merge
 ```
 
-Once you've done the prerequisite:
+## Once you've done the prerequisite
 
 - [`config/_default`](https://jpanther.github.io/congo/docs/installation/#set-up-theme-configuration-files)
     ```
@@ -90,16 +95,16 @@ Once you've done the prerequisite:
 
 # Blowfish
 
-[Install using git](https://blowfish.page/docs/installation/#install-using-git)
+## [Install using git](https://blowfish.page/docs/installation/#install-using-git)
 
 ```sh
 git submodule add -b main https://github.com/nunocoracao/blowfish.git themes/blowfish
 ```
 
-[Update using git](https://blowfish.page/docs/installation/#update-using-git)
+## [Update using git](https://blowfish.page/docs/installation/#update-using-git)
 
 ```sh
 git submodule update --remote --merge
 ```
 
-[Set up theme configuration files](https://blowfish.page/docs/installation/#set-up-theme-configuration-files)
+## [Set up theme configuration files](https://blowfish.page/docs/installation/#set-up-theme-configuration-files)

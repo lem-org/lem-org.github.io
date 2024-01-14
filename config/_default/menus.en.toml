@@ -16,9 +16,14 @@
   weight = 10
 
 [[main]]
+  name = "Delivery as a Service"
+  pageRef = "delivery_as_a_service"
+  weight = 20
+
+[[main]]
   name = "About"
   pageRef = "about"
-  weight = 20
+  weight = 90
 
 #[[main]]
 #  name = "Blog"

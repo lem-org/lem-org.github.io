@@ -18,7 +18,7 @@
 [[main]]
   name = "关于"
   pageRef = "about"
-  weight = 20
+  weight = 90
 
 #[[main]]
 #  name = "Blog"

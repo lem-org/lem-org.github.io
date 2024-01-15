@@ -12,3 +12,5 @@ We're a technology consultancy that integrates strategy, design and software eng
 We leverage our vast experience to improve our clients’ ability to respond to change; create adaptable technology platforms that move with business strategies; and rapidly design, deliver and evolve exceptional digital products and experiences at scale.
 
 **E-Mail** lem-org@outlook.com
+
+<img src="./qrcode.png" alt="https://lem-org.github.io/" width="200px" >

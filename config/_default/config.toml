@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://your_domain.com/"
+baseURL = "https://placeholder.com/"
 # defaultContentLanguage = "zh-cn"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true

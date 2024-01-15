@@ -12,7 +12,7 @@ weight = 1
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
   # copyright = "Copy, _right?_ :thinking_face:"
-  copyright = "© 2024 LEM, Inc."
+  copyright = "© 2024 LEM"
 
 [author]
 #   name = "LEM"

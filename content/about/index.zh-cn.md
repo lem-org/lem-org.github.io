@@ -1,6 +1,6 @@
 ---
 title: '关于我们'
-heroStyle: 'basic'
+heroStyle: 'background'
 ---
 
 <!--

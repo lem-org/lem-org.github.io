@@ -1,5 +1,6 @@
 ---
 title: '交付'
+heroStyle: 'background'
 ---
 
 <!--

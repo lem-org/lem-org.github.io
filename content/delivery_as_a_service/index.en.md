@@ -1,5 +1,6 @@
 ---
 title: 'Delivery as a Service'
+heroStyle: 'background'
 ---
 
 <!--

@@ -25,3 +25,7 @@
 
 - https://blowfish.page/docs/shortcodes/#carousel
 - https://hugocodex.org/add-ons/slider-carousel/
+
+## [Timeline](https://blowfish.page/docs/shortcodes/#timeline)
+
+## [TypeIt](https://blowfish.page/docs/shortcodes/#typeit)

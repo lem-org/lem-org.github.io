@@ -6,6 +6,10 @@
 brew install hugo
 ```
 
+## [Directory structure](https://gohugo.io/getting-started/directory-structure/)
+
+- https://blowfish.page/docs/advanced-customisation/#hugo-project-structure
+
 # Congo
 
 

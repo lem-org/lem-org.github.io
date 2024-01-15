@@ -16,6 +16,11 @@
   weight = 10
 
 [[main]]
+  name = "交付"
+  pageRef = "delivery_as_a_service"
+  weight = 20
+
+[[main]]
   name = "关于"
   pageRef = "about"
   weight = 90

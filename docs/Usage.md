@@ -20,3 +20,8 @@
 - https://hugocodex.org/add-ons/breadcrumbs/
 
 ## [Add-ons for Hugo](https://hugocodex.org/add-ons/)
+
+## Carousel
+
+- https://blowfish.page/docs/shortcodes/#carousel
+- https://hugocodex.org/add-ons/slider-carousel/

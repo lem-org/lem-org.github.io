@@ -1,4 +1,6 @@
 ---
 title: "作者"
-cardView: false
+cascade:
+    cardView: false
+    showCards: false
 ---

@@ -1,8 +1,6 @@
 ---
 title: 'Insights'
 cardView: false
-showCards: false
-cardViewScreenWidth: false
 ---
 
 <!--

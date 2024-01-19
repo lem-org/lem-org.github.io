@@ -5,8 +5,8 @@
 theme = "blowfish"
 baseURL = "https://placeholder.com/"
 # defaultContentLanguage = "zh-cn"
-defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+defaultContentLanguage = "zh-cn"
+defaultContentLanguageInSubdir = false
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 

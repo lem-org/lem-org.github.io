@@ -32,6 +32,9 @@ authors:
 
 上面所提到的种种诉求互相制约，就形成了一个三角：
 
+![plantuml](./assets/index.zh-cn-0.svg)
+
+<!--
 ```plantuml
 @startmindmap
 * 制约
@@ -43,9 +46,13 @@ authors:
         * 成本
 @endmindmap
 ```
+-->
 
 ## 2. 从人类历史中找到成事的最佳实践
 
+![plantuml](./assets/index.zh-cn-1.svg)
+
+<!--
 ```plantuml
 @startmindmap
 * 问题
@@ -62,9 +69,13 @@ authors:
             * 验收
 @endmindmap
 ```
+-->
 
 所以
 
+![plantuml](./assets/index.zh-cn-2.svg)
+
+<!--
 ```plantuml
 @startmindmap
 * 方案
@@ -82,11 +93,15 @@ authors:
             * ​一次只做一件事（Single-Tasking）
 @endmindmap
 ```
+-->
 
 如果你是一个人在做事，没有团队，那么读到这里就够了，你只要把要做的事情分解为待办事项的列表，然后按照Time Boxing的方式，每隔一段时间把做好的一部分发放到市场上收集反馈，然后改进就可以了。
 
 但是如果你是在靠团队做事，那么就得想想从个体到团队需要额外考虑哪些因素：
 
+![plantuml](./assets/index.zh-cn-3.svg)
+
+<!--
 ```plantuml
 @startmindmap
 * 额外因素
@@ -104,9 +119,13 @@ authors:
 ;
 @endmindmap
 ```
+-->
 
 因此我们得到一个团队的成事哲学：
 
+![plantuml](./assets/index.zh-cn-4.svg)
+
+<!--
 ```plantuml
 @startmindmap
 * 团队的成事哲学
@@ -119,6 +138,7 @@ authors:
     * 生产力
 @endmindmap
 ```
+-->
 
 把以上成事哲学稍微整理一下就是敏捷。
 
@@ -163,6 +183,9 @@ authors:
 
 敏捷价值过于抽象了，我们拿着成事哲学来看看，有哪些实践能让一个团队成事。
 
+![plantuml](./assets/index.zh-cn-5.svg)
+
+<!--
 ```plantuml
 @startmindmap
 * 团队的成事哲学
@@ -188,11 +211,15 @@ authors:
         * Velocity
 @endmindmap
 ```
+-->
 
 ### 4.1. 高效会议
 
 会议的实践原则只有一个：让这个会议能高效地履行职责，避免浪费与会人员的时间和精力。
 
+![plantuml](./assets/index.zh-cn-6.svg)
+
+<!--
 ```plantuml
 @startmindmap
 * Sprint会议
@@ -259,6 +286,7 @@ authors:
 
 @endmindmap
 ```
+-->
 
 ### 4.2. Backlog Refinement
 
@@ -316,6 +344,9 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 
 不是，这些会对应的目的能达成的话，如果有其他更好的形式，那完全okay，这些会甚至都可以完全取消。
 
+![plantuml](./assets/index.zh-cn-7.svg)
+
+<!--
 ```plantuml
 @startmindmap
 * 会议类型
@@ -351,6 +382,7 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 
 @endmindmap
 ```
+-->
 
 - Sprint Planning，迭代计划会 - 传达信息会议
 - Daily Scrum，每日站会 - 定期更新会议

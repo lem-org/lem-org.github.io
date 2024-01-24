@@ -33,8 +33,9 @@ authors:
 上面所提到的种种诉求互相制约，就形成了一个三角：
 
 ![plantuml](./assets/index.zh-cn-0.svg)
+<details>
+<summary>...</summary>
 
-<!--
 ```plantuml
 @startmindmap
 * 制约
@@ -46,13 +47,15 @@ authors:
         * 成本
 @endmindmap
 ```
--->
+
+</details>
 
 ## 2. 从人类历史中找到成事的最佳实践
 
 ![plantuml](./assets/index.zh-cn-1.svg)
+<details>
+<summary>...</summary>
 
-<!--
 ```plantuml
 @startmindmap
 * 问题
@@ -69,13 +72,15 @@ authors:
             * 验收
 @endmindmap
 ```
--->
+
+</details>
 
 所以
 
 ![plantuml](./assets/index.zh-cn-2.svg)
+<details>
+<summary>...</summary>
 
-<!--
 ```plantuml
 @startmindmap
 * 方案
@@ -93,15 +98,17 @@ authors:
             * ​一次只做一件事（Single-Tasking）
 @endmindmap
 ```
--->
+
+</details>
 
 如果你是一个人在做事，没有团队，那么读到这里就够了，你只要把要做的事情分解为待办事项的列表，然后按照Time Boxing的方式，每隔一段时间把做好的一部分发放到市场上收集反馈，然后改进就可以了。
 
 但是如果你是在靠团队做事，那么就得想想从个体到团队需要额外考虑哪些因素：
 
 ![plantuml](./assets/index.zh-cn-3.svg)
+<details>
+<summary>...</summary>
 
-<!--
 ```plantuml
 @startmindmap
 * 额外因素
@@ -119,13 +126,15 @@ authors:
 ;
 @endmindmap
 ```
--->
+
+</details>
 
 因此我们得到一个团队的成事哲学：
 
 ![plantuml](./assets/index.zh-cn-4.svg)
+<details>
+<summary>...</summary>
 
-<!--
 ```plantuml
 @startmindmap
 * 团队的成事哲学
@@ -138,7 +147,8 @@ authors:
     * 生产力
 @endmindmap
 ```
--->
+
+</details>
 
 把以上成事哲学稍微整理一下就是敏捷。
 
@@ -184,8 +194,9 @@ authors:
 敏捷价值过于抽象了，我们拿着成事哲学来看看，有哪些实践能让一个团队成事。
 
 ![plantuml](./assets/index.zh-cn-5.svg)
+<details>
+<summary>...</summary>
 
-<!--
 ```plantuml
 @startmindmap
 * 团队的成事哲学
@@ -211,15 +222,17 @@ authors:
         * Velocity
 @endmindmap
 ```
--->
+
+</details>
 
 ### 4.1. 高效会议
 
 会议的实践原则只有一个：让这个会议能高效地履行职责，避免浪费与会人员的时间和精力。
 
 ![plantuml](./assets/index.zh-cn-6.svg)
+<details>
+<summary>...</summary>
 
-<!--
 ```plantuml
 @startmindmap
 * Sprint会议
@@ -286,7 +299,8 @@ authors:
 
 @endmindmap
 ```
--->
+
+</details>
 
 ### 4.2. Backlog Refinement
 
@@ -300,7 +314,7 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 
 #### 4.2.1. 发散
 
-发散的意思就是在对一个story做梳理的前期，我们需要针对目标story做发散思维的讨论，尽力考虑到各个方面的问题、假设、困难，防止专家思维的局限，这是个脑暴的过程。
+发散的意思就是在对一个story做梳理的前期，我们需要针对目标story做发散思维的讨论，尽力考虑到各个方面的问题、假设、困难，防止专家思维的局限，这是个头脑风暴的过程。
 
 - 暂缓对别人观点的评论
 - 鼓励异想天开的想法
@@ -309,25 +323,63 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 - 图文并茂，鼓励使用可视化的方式
 - 做加法，点子越多越好（先不关注点子的质量）
 
-为了更好的引导这个脑暴的过程，我们常见的指导分析方法有：
+为了更好的引导这个头脑风暴的过程，我们常见的指导分析方法有：
 
-- **FURPS+**：FURPS+更像一个checklist，它能提醒我们在发散的时候要从这些角度去思考，避免有大块的遗漏。
-    - Functionality，功能性
-    - Usability，可用性
-    - Reliability，可靠性
-    - Performance，性能相关的）
-    - Supportability，其它对内部研发支持，比如文档、为了可测性、可扩展性等
-    - `+`，是指其它更多可能的考虑
-        - 设计上的限制，比如系统以前的架构局限
-        - 实现上得限制，比如语言，人力资源，操作环境等
-        - 接口的需求，外部依赖的接口和服务
-        - 硬件的需求，物理硬件的限制
+![plantuml](./assets/index.zh-cn-7.svg)
+<details>
+<summary>...</summary>
 
-- **SQA**：SQA的方法在实际中更加常用和易用。SQA就是通过大家一起回答目标story的三个问题来澄清我们的需求：
-    - Question：任何对这个需求不清楚的问题
-    - Scope：team为了完成这个需求到底要做哪些事，不做哪些事情
-    - Assumptions：为了做这些事的前提假设，可能是成立的，也可能是不成立的
-    这里会有很多疑问和假设，PO需要在团队讨论的过程中随时解答团队的疑问和澄清假设，不能当场澄清的，团队和PO需要会后带回去，在下个迭代planning meeting前完成澄清。
+```plantuml
+@startmindmap
+* 发散
+
+**:==FURPS+
+;
+
+***: Functionality，功能性
+;
+
+***: Usability，可用性
+;
+
+***: Reliability，可靠性
+;
+
+***: Performance，性能相关的
+;
+
+***: Supportability，其它对内部研发支持，比如文档、为了可测性、可扩展性等
+;
+
+***: +是指其它更多可能的考虑
+;
+**** 设计限制，比如系统以前的架构局限
+**** 接口需求，外部依赖的接口和服务
+**** 实现限制，比如编程语言，人力资源，时间等
+**** 基础设施需求
+
+**:==SQA
+;
+
+***:==Question
+任何对这个需求不清楚的问题
+;
+
+***:==Scope
+团队为了完成这个需求到底要做哪些事，不做哪些事情
+;
+
+***:==Assumptions
+为了做这些事的前提假设，可能是成立的，也可能是不成立的
+;
+
+@endmindmap
+```
+
+</details>
+
+- **FURPS+** 更像一个checklist，它能提醒我们在发散的时候要从这些角度去思考，避免重大遗漏。
+- **SQA** 在实际中更加常用和易用。SQA就是通过大家一起回答目标story的三个问题来澄清我们的需求。这里会有很多疑问和假设，PO需要在团队讨论的过程中随时解答团队的疑问和澄清假设，不能当场澄清的，团队和PO需要会后带回去，在下个迭代planning meeting前完成澄清。
 
 #### 4.2.2. 收敛
 
@@ -344,9 +396,10 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 
 不是，这些会对应的目的能达成的话，如果有其他更好的形式，那完全okay，这些会甚至都可以完全取消。
 
-![plantuml](./assets/index.zh-cn-7.svg)
+![plantuml](./assets/index.zh-cn-8.svg)
+<details>
+<summary>...</summary>
 
-<!--
 ```plantuml
 @startmindmap
 * 会议类型
@@ -382,7 +435,8 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 
 @endmindmap
 ```
--->
+
+</details>
 
 - Sprint Planning，迭代计划会 - 传达信息会议
 - Daily Scrum，每日站会 - 定期更新会议

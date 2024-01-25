@@ -89,9 +89,19 @@ def process_raw_files(directory, server_url):
                 new_file_path = os.path.join(directory, filename.replace('.raw', ''))
                 generate_svg_images_from_markdown(src_file_path, new_file_path, server_url)
 
+def check_service_readiness(server_url):
+    response = requests.get(server_url)
+    if response.status_code >= 200 and response.status_code < 400:
+        pass
+    else:
+        raise Exception("The PlantUML server is not ready")
+
 if __name__ == '__main__':
     import sys
     server_url = 'http://127.0.0.1:30057'
     directory = sys.argv[1]
-
-    process_raw_files(directory, server_url)
+    try:
+        check_service_readiness(server_url)
+        process_raw_files(directory, server_url)
+    except Exception as e:
+        print(str(e))

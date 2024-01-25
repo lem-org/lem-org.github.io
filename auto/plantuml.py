@@ -6,6 +6,7 @@ import markdown
 import urllib.parse
 import zlib
 import base64
+import shutil
 
 def extract_plantuml_code_blocks(markdown_text):
     pattern = r'```plantuml\n(.*?)\n```'
@@ -45,13 +46,16 @@ def encode_plantuml(data):
     return encoded_data
 
 def insert_svg_into_markdown(svg, code_block, markdown_text, asset_filename):
-    img_tag = f'\n\n![PlantUML generated image](assets/{asset_filename}.svg)\n\n'
+    img_tag = f'![plantuml](./plantuml/{asset_filename}.svg)'
     updated_text = markdown_text.replace(f'```plantuml\n{code_block}\n```', img_tag)
     return updated_text
 
 def generate_svg_images_from_markdown(src_file_path, new_file_path, server_url):
     with open(src_file_path, 'r') as file:
         markdown_text = file.read()
+    assets_directory = f'{os.path.dirname(src_file_path)}/plantuml'
+    if os.path.exists(assets_directory):
+        shutil.rmtree(assets_directory)
 
     code_blocks = extract_plantuml_code_blocks(markdown_text)
     for code_block in code_blocks:
@@ -59,7 +63,6 @@ def generate_svg_images_from_markdown(src_file_path, new_file_path, server_url):
         asset_filename = f'{md5_hash}'
         svg = generate_svg_from_plantuml(code_block, server_url)
         if svg is not None:
-            assets_directory = f'{os.path.dirname(src_file_path)}/assets'
             if not os.path.exists(assets_directory):
                 os.makedirs(assets_directory)
             asset_path = f'{assets_directory}/{asset_filename}.svg'
@@ -72,7 +75,7 @@ def generate_svg_images_from_markdown(src_file_path, new_file_path, server_url):
     with open(new_file_path, 'w') as file:
         file.write(markdown_text)
 
-def process_raw_files(directory):
+def process_raw_files(directory, server_url):
     # 遍历目录下的所有文件和文件夹
     for root, dirs, files in os.walk(directory):
         for file in files:
@@ -89,6 +92,6 @@ def process_raw_files(directory):
 if __name__ == '__main__':
     import sys
     server_url = 'http://127.0.0.1:30057'
-    content_path = sys.argv[1]
+    directory = sys.argv[1]
 
-    process_raw_files(content_path)
+    process_raw_files(directory, server_url)

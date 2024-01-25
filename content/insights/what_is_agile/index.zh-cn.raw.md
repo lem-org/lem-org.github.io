@@ -32,10 +32,6 @@ authors:
 
 上面所提到的种种诉求互相制约，就形成了一个三角：
 
-![plantuml](./assets/index.zh-cn-0.svg)
-<details>
-<summary>...</summary>
-
 ```plantuml
 @startmindmap
 * 制约
@@ -48,13 +44,7 @@ authors:
 @endmindmap
 ```
 
-</details>
-
 ## 2. 从人类历史中找到成事的最佳实践
-
-![plantuml](./assets/index.zh-cn-1.svg)
-<details>
-<summary>...</summary>
 
 ```plantuml
 @startmindmap
@@ -73,13 +63,7 @@ authors:
 @endmindmap
 ```
 
-</details>
-
 所以
-
-![plantuml](./assets/index.zh-cn-2.svg)
-<details>
-<summary>...</summary>
 
 ```plantuml
 @startmindmap
@@ -99,15 +83,9 @@ authors:
 @endmindmap
 ```
 
-</details>
-
 如果你是一个人在做事，没有团队，那么读到这里就够了，你只要把要做的事情分解为待办事项的列表，然后按照Time Boxing的方式，每隔一段时间把做好的一部分发放到市场上收集反馈，然后改进就可以了。
 
 但是如果你是在靠团队做事，那么就得想想从个体到团队需要额外考虑哪些因素：
-
-![plantuml](./assets/index.zh-cn-3.svg)
-<details>
-<summary>...</summary>
 
 ```plantuml
 @startmindmap
@@ -127,13 +105,7 @@ authors:
 @endmindmap
 ```
 
-</details>
-
 因此我们得到一个团队的成事哲学：
-
-![plantuml](./assets/index.zh-cn-4.svg)
-<details>
-<summary>...</summary>
 
 ```plantuml
 @startmindmap
@@ -147,8 +119,6 @@ authors:
     * 生产力
 @endmindmap
 ```
-
-</details>
 
 把以上成事哲学稍微整理一下就是敏捷。
 
@@ -193,10 +163,6 @@ authors:
 
 敏捷价值过于抽象了，我们拿着成事哲学来看看，有哪些实践能让一个团队成事。
 
-![plantuml](./assets/index.zh-cn-5.svg)
-<details>
-<summary>...</summary>
-
 ```plantuml
 @startmindmap
 * 团队的成事哲学
@@ -223,15 +189,9 @@ authors:
 @endmindmap
 ```
 
-</details>
-
 ### 4.1. 高效会议
 
 会议的实践原则只有一个：让这个会议能高效地履行职责，避免浪费与会人员的时间和精力。
-
-![plantuml](./assets/index.zh-cn-6.svg)
-<details>
-<summary>...</summary>
 
 ```plantuml
 @startmindmap
@@ -300,8 +260,6 @@ authors:
 @endmindmap
 ```
 
-</details>
-
 ### 4.2. Backlog Refinement
 
 Refinement 这个词是加工、提炼的意思，在scrum里，其实就是对下阶段的需求做一个讨论、澄清、细化的一个活动，希望通过这个活动，使得团队能对后续阶段的需求能有一个common understanding，尽量避免团队因为对需求理解的不一致所导致的各类问题，并帮助团队在下个迭代开始的时候更快进入开发状态，它一般是发生在下个迭代开始前的一段时间里。中文一般叫做Product backlog梳理会议（product backlog refinement）
@@ -324,10 +282,6 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 - 做加法，点子越多越好（先不关注点子的质量）
 
 为了更好的引导这个头脑风暴的过程，我们常见的指导分析方法有：
-
-![plantuml](./assets/index.zh-cn-7.svg)
-<details>
-<summary>...</summary>
 
 ```plantuml
 @startmindmap
@@ -376,8 +330,6 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 @endmindmap
 ```
 
-</details>
-
 - **FURPS+** 更像一个checklist，它能提醒我们在发散的时候要从这些角度去思考，避免重大遗漏。
 - **SQA** 在实际中更加常用和易用。SQA就是通过大家一起回答目标story的三个问题来澄清我们的需求。这里会有很多疑问和假设，PO需要在团队讨论的过程中随时解答团队的疑问和澄清假设，不能当场澄清的，团队和PO需要会后带回去，在下个迭代planning meeting前完成澄清。
 
@@ -395,10 +347,6 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 ### 5.1. Scrum中的各种会议是不是必须都要按时按点举行？
 
 不是，这些会对应的目的能达成的话，如果有其他更好的形式，那完全okay，这些会甚至都可以完全取消。
-
-![plantuml](./assets/index.zh-cn-8.svg)
-<details>
-<summary>...</summary>
 
 ```plantuml
 @startmindmap
@@ -435,8 +383,6 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 
 @endmindmap
 ```
-
-</details>
 
 - Sprint Planning，迭代计划会 - 传达信息会议
 - Daily Scrum，每日站会 - 定期更新会议

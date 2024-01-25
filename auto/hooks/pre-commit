@@ -1,5 +1,3 @@
 #!/bin/bash
 
 ./auto/preproccess.sh
-
-git status

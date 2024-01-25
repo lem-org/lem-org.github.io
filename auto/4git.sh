@@ -7,5 +7,5 @@ git config core.quotepath false
 
 git submodule update --remote --merge
 
-git config core.hooksPath hooks
+git config core.hooksPath auto/hooks
 cat ./.git/config

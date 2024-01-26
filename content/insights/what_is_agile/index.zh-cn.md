@@ -4,70 +4,108 @@ authors:
   - "wu_hong"
 ---
 
-> 很多时候我不得不怀疑很多理论听起来离实际工作如此遥远，要么是发表这个理论的人是在故弄玄虚，要么就是他需要把这件事讲的足够抽象才能让它兼容尽可能多的具体案例。很多管理学的理论，看起来仿佛就是一些人为了塑造影响力，把一些理所当然的生活逻辑，我们很不会认为能上升为理论的事情写到了书里面去。在那个很多年前刚接触敏捷的我看来就是如此，随着经手的项目越来越多，才发觉其实这帮人没有把敏捷在敏捷宣言中讲明白，简而言之，它希望告诉软件团队，要想成事，你得从战略上想着如何通过频繁尝试来避免事情不成.
+批判性思维
 
-它强调的是频繁，不是快。
+结构化思维
 
-## 开心地把事又快又好地做成了
+复盘思维
 
-无论采用什么样的工作哲学和方法论，我们都期望开心地把事又快又好地做成了，不妨以终为始，忘记敏捷，想想达到这样的境界需要什么样的条件。
+## 做事的过程就是消除不确定性的过程
 
-思考问题，既要全面，又要能抓住重点。
+一开始，当你还不确定要开发什么产品时，不确定性最高。然而，随后你获得了一个创意，清楚了自己的核心竞争力，认为这个创意可以盈利，这时不确定性稍微减小了一些，但并没有完全消失。因为你可能还不确定市场是否会接受你的产品。当你逐步分解产品需求，从问题领域到解决方案领域，一点点地减小了不确定性，直到你的商业模式得到验证，不确定性才会消失。
 
-> MECE准则 = Mutually Exclusive and Collectively Exhaustive, 彼此排斥，且无遗漏 = 无重复、无遗漏
-> 相互独立，完全穷尽。考虑问题，既要全面，又要把握事情的核心。
+每个阶段消除不确定性的方法不同。
 
-![plantuml](./plantuml/9004a91e5a147c44faaaefa92328a355.svg)
+![plantuml](./plantuml/4264c50bd6980732cdc8c4d1225803c6.svg)
 
-### 要做什么事
+而敏捷，只是环节之一。
 
-![plantuml](./plantuml/abb446af71d7f9bc2e510f912d5ed821.svg)
+## 把能带来价值的事情又快又好地做成
 
-### 怎么就算做成
+敏捷这个术语是2001 年在[敏捷宣言](https://agilemanifesto.org/iso/zhchs/manifesto.html)中提出的。
 
-![plantuml](./plantuml/27f81afccb83d1bc28437ee50b2c8475.svg)
+2001年初，在美国犹他州雪鸟度假村，17个软件从业者聚在一起，组成了敏捷联盟，讨论研究了一遍从软件行业诞生以来的所有轻量级开发方法，然后发布了敏捷宣言。
 
-我们希望做的事情能带来价值。
+> 很多时候我不得不怀疑很多理论听起来离实际工作如此遥远，要么是发表这个理论的人是在故弄玄虚，要么就是他需要把这件事讲的足够抽象才能让它兼容尽可能多的具体案例。很多管理学的理论，看起来仿佛就是一些人为了塑造影响力，把一些理所当然的生活逻辑，一些我们很不会认为能上升为理论的事情写到了书里面去。
 
-以产品为例：`产品价值 = 用户价值 + 商业价值 + 社会价值`
+在那个很多年前刚接触敏捷的我看来就是如此，随着经手的项目越来越多，才发觉其实提出敏捷的这帮人没有把敏捷总结明白，因为敏捷实践出现的时间远远早于敏捷宣言的诞生，或者说对于一个善于思考的人，完全可以在不知道敏捷概念的基础上摸索出用敏捷的方式做事，只是这17个人没能把这种哲学总结清楚。
+
+> 我们这个行业不尊重传统，只尊重创新。 -- 纳德拉（微软首席执行官）
+
+无论采用什么样的工作哲学和方法论，终极目标都是把能带来**价值**的事情又**快**又**好**地**做成**，因此不妨先忘记敏捷这个术语，以终为始，由果索因，找找什么样的原因才能导致这个终极目标的达成。
+
+### 做什么产品
+
+什么是有价值的事情？怎么判断一件事情有没有价值？怎么快速地验证一件事情有没有价值？
+
+> “失败是成功之母”这句话我是不大同意的。你想想，失败一次，再来，然后再失败，哪还有勇气，哪还有机会，哪还有能力去成功？应该是积小胜为大胜，积累一个一个的小成功。当然，这中间可能有失败，失败可以有很多，但绝对不能致命。从量上来讲，成功至少要占 51%，失败的时候少于 49%，做到这样，一个一个的小成功，会让人逐步地有信心。所以一开始目标不要太大，定小目标，你把它完成之后，可以再做一个，然后再做一个，只要大方向不受影响，即使过程中遭到挫败了，继续做下去，也还具备成功的条件。要积累经验，积累小胜，小胜多了，就是成功。 -- 王石
+
+做什么产品这是个问题，思考问题，既要全面，又要能抓住重点。
+
+> MECE准则（ Mutually Exclusive and Collectively Exhaustive）, 彼此排斥且无遗漏/相互独立且完全穷尽
+
+5W2H就是遵循MECE准则的一种分析方法，它提供了一种问题拆解的角度。
+
+![plantuml](./plantuml/0c9c9e5d87134ff730cac87c2e0b4f3b.svg)
+
+其中，Why，What，How much就是“做什么产品”构成了问题的答案。
+
+![plantuml](./plantuml/508da5c8153ddf16371e7884f420cb31.svg)
+
+寻找答案的过程分为2步：
+
+- 通过产品探索（Product Discovery）确定产品的初始需求。
+- 通过不断的“积小胜为大胜”调整产品战略直至取得商业成功。
+
+所以，“做什么产品”这个问题是贯穿始终且持续调整的，而敏捷及其方法论，讲的就是如何“积小胜为大胜”。
+
+## 拆解终结目标
+
+> 把能带来价值的事情又快又好地做成
+
+### 目标之一：事情能成是底线
+
+![plantuml](./plantuml/f5e6c412e7211974c266f906351b8566.svg)
+
+### 目标之一：产品得有价值
+
+> 产品价值 = 用户价值 + 商业价值 + 社会价值
 
 - 用户价值：帮助需求侧用户/客户解决什么问题，再直白点就是帮用户/客户赚了/省了多少钱。
 - 商业价值：作为产品供应侧，你从这笔交易中的获利，比较常见的如用户量、生产资料、财务收入、客户满意度等。
 - 社会价值：产品、服务或解决方案对社会的影响和贡献，比如可持续发展、环境保护、社会责任等。
 
-### 快和好
+### 目标之一：事情要做的又快又好
 
 效率高就是快，质量高就是好。
 
-### 诉求之间互相制约
+## 目标之间互相制约
 
 ![plantuml](./plantuml/520fa0bdc468c108a12acbb40c8bdc81.svg)
 
-## 从人类历史中找到成事的最佳实践
+## 循着目标找方案
 
-![plantuml](./plantuml/ecadedbdb53240e36ae6055167078d2e.svg)
+![plantuml](./plantuml/2d144f6b543a9685eea56f9e12c59cba.svg)
 
 所以
 
-![plantuml](./plantuml/866e37c38faaefa3639c560ec6b2e0bb.svg)
+![plantuml](./plantuml/c680c2689f83a29ab83ca6244f60c5cc.svg)
+
+> “你生命中最大的挑战是什么？”“确保有一个可纠错的反馈闭环。” -- 埃隆·马斯克
 
 如果你是一个人在做事，没有团队，那么读到这里就够了，你只要把要做的事情分解为任务列表，然后按照Time Boxing的方式，每隔一段时间把做好的一部分发放到市场上收集反馈，然后改进就可以了。
 
-但是如果你是在靠团队做事，那么就得想想从个体到团队需要额外考虑哪些因素：
+但是如果你是在靠团队做事，那么就得想想从个体到团队需要额外考虑哪些因素。你想，现在一个大脑变成了多个大脑，虽然“多一个人，多一份力量”，但是每个大脑知道什么，知道到什么程度，会解决什么什么问题，能解决多难的问题互相不完全清楚，因此额外要考虑的因素就是协作。
 
-![plantuml](./plantuml/6f1047a50bc13b948ab45782d1d10859.svg)
+![plantuml](./plantuml/4fa71f53888ed002103758a196aeb286.svg)
 
 因此我们得到一个团队的成事哲学：
 
-![plantuml](./plantuml/faaa837fa9755be9a49eee6a35b86a53.svg)
+![plantuml](./plantuml/40f00b09584078bdaffad5af58241a58.svg)
 
 把以上成事哲学稍微整理一下就是敏捷。
 
-## 敏捷
-
-敏捷这个术语是2001 年在[敏捷宣言](https://agilemanifesto.org/iso/zhchs/manifesto.html)中提出的。
-
-2001年初，在美国犹他州雪鸟度假村，17个软件从业者聚在一起，组成了敏捷联盟，讨论研究了一遍从软件行业诞生以来的所有轻量级开发方法，然后发布了敏捷宣言。
+## 敏捷宣言
 
 敏捷宣言包含两部分内容：4个价值观和12条原则。
 
@@ -102,7 +140,9 @@ authors:
 
 ## 敏捷方法论之Scrum
 
-敏捷价值过于抽象了，我们拿着成事哲学来看看，有哪些实践能让一个团队成事。
+10人以下的，角色完备的小规模团队是最佳团队配置，团队越小，规矩越少，效果越高。
+
+敏捷价值观过于抽象了，我们拿着成事哲学来看看，有哪些实践能让一个团队成事。
 
 ![plantuml](./plantuml/bdaaec063ccdf42ce11567a30083f59d.svg)
 
@@ -110,46 +150,48 @@ authors:
 
 会议的实践原则只有一个：让这个会议能高效地履行职责，避免浪费与会人员的时间和精力。
 
-![plantuml](./plantuml/adaff301797696787110dd1602750288.svg)
+![plantuml](./plantuml/e3930fd5041ee48b1548221465a2ad79.svg)
 
-### Sprint Planning，迭代计划会
+## 迭代计划会（Sprint Planning）
 
-#### 输入
+### 输入
 
 - Product Backlog
 - Team Velocity
 
-#### 输出
+### 输出
 
 - Sprint Backlog
     - Commitment：Sprint的目标（Sprint Goal）
     - 任务的工作量估算
     - 计划（任务列表）：Todo items
 
-### Sprint Retrospective，迭代总结会
+## 迭代总结会（Sprint Retrospective）
 
-#### 会前准备
+### 会前准备
 
-1. 创建Retrospective Board
+#### 创建Retrospective Board
 
-风格：**Went Well - Shoutouts - To be Improved - Actions**
+> 风格：Went Well, Shoutouts, To be Improved
 
-风格：**4Ls Retrospective - Liked, Learned, Lacked, & Longed For**
+> 风格：Liked, Learned, Lacked, Longed For
 
-Retrospectives are an essential tool for highlighting opportunities for change, generating process improvements, and generally ensuring a team is moving in the right direction. There are some standard models for running retrospectives, but a slight change in the approach can lead to dramatically improved outcomes. One model that has created meaningful results for many teams is the 4Ls Retrospective.
-The 4Ls Retrospective model is an attempt to capture the natural thoughts that team members might have that can lead to continuous improvement. We naturally tend to think and share in terms of things that we appreciate, lessons learned, things that were missing, and that which we wish we had. 4Ls leverages that natural thinking in a focused and helpful way.
+> **Liked**
+This may be the most simple. What were the positive aspects of the sprint that the team enjoyed or appreciated? This can encompass any aspect of the sprint, including actions, processes, or achievements. What went better than expected? This is all about the positive.
 
-- Liked
-    This may be the most simple. What were the positive aspects of the sprint that the team enjoyed or appreciated? This can encompass any aspect of the sprint, including actions, processes, or achievements. What went better than expected? This is all about the positive.
-- Learned
-    Any good sprint includes opportunities to learn new things. Were there any new discoveries that stood out? Everything is on the table here, from technical findings to interpersonal learnings. It can be results of formal experiments or things that just bubbled to the surface.
-- Lacked
-    It would be a rare event to finish a sprint and find nothing lacking. Was there something missing from the last iteration? Could something have been done better? Was there a resource lacking that would have made things run smoother?
-- Longed​ ​For​
-    There is a subtle, yet essential difference between "lacked" and “longed for." In the previous category, the team identified things that they saw were missing. Now it is time to dream about things the team wished were possible, or tools they wished existed or were available to them. These are things that may or may not be possible but would improve the chances of completing a successful project.
+> **Learned**
+Any good sprint includes opportunities to learn new things. Were there any new discoveries that stood out? Everything is on the table here, from technical findings to interpersonal learnings. It can be results of formal experiments or things that just bubbled to the surface.
+
+> **Lacked**
+It would be a rare event to finish a sprint and find nothing lacking. Was there something missing from the last iteration? Could something have been done better? Was there a resource lacking that would have made things run smoother?
+
+> **Longed​ ​For​**
+There is a subtle, yet essential difference between "lacked" and “longed for." In the previous category, the team identified things that they saw were missing. Now it is time to dream about things the team wished were possible, or tools they wished existed or were available to them. These are things that may or may not be possible but would improve the chances of completing a successful project.
 
 
-2. 收集Team Sentiment Survey（团队情绪调查）
+#### 团队情绪调查（Team Sentiment Survey）
+
+团队情绪氛围一方面会影响个体情绪和动机，从而作用于个体创造力; 另一方面 通过影响团队互动行为，对团队中个体和整体的创造力发挥影响作用。当团队情绪氛围积极时，积极情绪分享会使团队内部出现更多的扩展和开拓性互动(broadening-and-building interactions)，此类互动会 影响团队创造力、成员对团队的满意度和成员的学习，团队整体处在积极的情绪中，有利于团队成员的认知拓展和自发性提高，更愿意在他人想法上进一步提出新想法，把任务往前推进，促进团队创新绩效。
 
 ```markdown
 1. How's your overall happiness for the past 2 weeks (more smiles means more happiness)
@@ -242,11 +284,11 @@ The 4Ls Retrospective model is an attempt to capture the natural thoughts that t
 
 #### 会议职责
 
-Refinement是加工、提炼的意思，refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用refinement。在Scrum里，其实就是对下阶段的需求做一个讨论、澄清、细化的一个活动，使得团队能对后续阶段的需求能达成共识，尽量避免团队因为对需求理解的不一致所导致的各类问题，并帮助团队在下个迭代开始的时候更快进入开发状态，它一般是发生在下个迭代开始前的一段时间里。
+Refinement是加工、提炼的意思，Refinement在之前还有一个名字，叫做Grooming，后来Scrum联盟改用Refinement。在Scrum里，其实就是对下阶段的需求做一个讨论、澄清、细化的一个活动，使得团队能对后续阶段的需求能达成共识，尽量避免团队因为对需求理解的不一致所导致的各类问题，并帮助团队在下个迭代开始的时候更快进入开发状态，它一般是发生在下个迭代开始前的一段时间里。
 
-需要注意的是，refinement并不止在会议上发生，需求的梳理其实不仅仅只发生在每个迭代的refinement的会议上，它其实应该是贯彻发生在整个软件开发的全过程中。只是在refinement 会议上做了最大量的需求梳理的工作，然后从sprint的开始，花费在需求梳理上的时间会慢慢减少，花费在软件设计开发上的时间慢慢增加，到了sprint得后期就慢慢没有了需求方面的工作而只剩下开发上面的工作了。
+需要注意的是，Refinement并不止在会议上发生，需求的梳理其实不仅仅只发生在每个迭代的Refinement的会议上，它其实应该是贯彻发生在整个软件开发的全过程中。只是在Refinement 会议上做了最大量的需求梳理的工作，然后从Sprint的开始，花费在需求梳理上的时间会慢慢减少，花费在软件设计开发上的时间慢慢增加，到了Sprint得后期就慢慢没有了需求方面的工作而只剩下开发上面的工作了。
 
-整个refinement的过程也可以简单看成发散加收敛的过程：
+整个Refinement的过程也可以简单看成发散加收敛的过程。
 
 #### 发散
 

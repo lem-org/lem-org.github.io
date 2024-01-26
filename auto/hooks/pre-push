@@ -1,15 +1,6 @@
 #!/bin/bash
 
-# Get the list of files that are staged for commit
-staged_files=$(git diff --name-only --cached)
+./auto/preproccess.sh
 
-# Check if there are any unstaged files
-unstaged_files=$(git ls-files --exclude-standard --others)
-
-if [ -n "$unstaged_files" ]; then
-  echo "ERROR: There are unstaged files. Please stage all changes before pushing."
-  exit 1
-fi
-
-# Proceed with the push
-exit 0
+git add .
+git commit --amend --no-edit

@@ -83,7 +83,7 @@ authors:
 @endmindmap
 ```
 
-如果你是一个人在做事，没有团队，那么读到这里就够了，你只要把要做的事情分解为待办事项的列表，然后按照Time Boxing的方式，每隔一段时间把做好的一部分发放到市场上收集反馈，然后改进就可以了。
+如果你是一个人在做事，没有团队，那么读到这里就够了，你只要把要做的事情分解为任务列表，然后按照Time Boxing的方式，每隔一段时间把做好的一部分发放到市场上收集反馈，然后改进就可以了。
 
 但是如果你是在靠团队做事，那么就得想想从个体到团队需要额外考虑哪些因素：
 
@@ -197,15 +197,7 @@ authors:
 @startmindmap
 * Sprint会议
 
-**:==Sprint Planning，迭代计划会
-- 输入：
-    - Product Backlog
-    - Team Velocity
-- 输出：
-    - Sprint Backlog
-        - Commitment：Sprint的目标（Sprint goal）
-        - 计划（待办事项列表）：Todo items
-;
+** Sprint Planning，迭代计划会
 
 **:==Daily Scrum，每日站会
 - 过程：
@@ -232,38 +224,124 @@ authors:
     - 下一个Sprint的优先事项
 ;
 
-**:==Sprint Retrospective，迭代总结会
-- 过程：
-    - 回顾和评估上一个迭代遇到的的问题、挑战和改进机会。
-    - 制定行动计划。
-    - 回顾上一次迭代总结会制定的行动计划的进展。
-- 输入：
-    - 迭代期间的工作过程和团队合作的经验
-    - 遇到的问题和挑战
-- 输出：
-    - 改进行动计划（plans，**怎么做**）和承诺（commitments，**什么时候完成**）
-;
+** Sprint Retrospective，迭代总结会
 
-**:==Backlog Refinement，待办列表梳理会议
-- 过程：
-    - 澄清需求。
-    - 估算工作量和确定优先级。
-- 输入：
-    - Product backlog
-- 输出：
-    - 更新后的Product backlog
-    - 描述详细且明确的任务
-    - 任务的工作量估算和优先级评估
-;
+** Product Backlog Refinement，待办列表梳理会议
 
 @endmindmap
 ```
 
-### 4.2. Backlog Refinement
+### Sprint Planning，迭代计划会
 
-Refinement 这个词是加工、提炼的意思，在scrum里，其实就是对下阶段的需求做一个讨论、澄清、细化的一个活动，希望通过这个活动，使得团队能对后续阶段的需求能有一个common understanding，尽量避免团队因为对需求理解的不一致所导致的各类问题，并帮助团队在下个迭代开始的时候更快进入开发状态，它一般是发生在下个迭代开始前的一段时间里。中文一般叫做Product backlog梳理会议（product backlog refinement）
+#### 输入
 
-refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用refinement。
+- Product Backlog
+- Team Velocity
+
+#### 输出
+
+- Sprint Backlog
+    - Commitment：Sprint的目标（Sprint Goal）
+    - 任务的工作量估算
+    - 计划（任务列表）：Todo items
+
+### Sprint Retrospective，迭代总结会
+
+#### 会前准备
+
+1. 收集Team Sentiment Survey（团队情绪调查）
+
+```markdown
+1. How's your overall happiness for the past 2 weeks (more smiles means more happiness)
+
+2. I find the upcoming work
+    - Interesting and something to look forward to
+    - OK but nothing to get excited about
+    - So fun that I am looking forward to a nap
+
+3. How challenged are you feeling about the work?
+    - I am in my comfort zone, nothing in the domain challenges me at the moment
+    - It's a good balance, I know my capabilities and I am expanding them through upcoming challenges
+    - I feel being pushed out of my comfort zone everyday and most of the tasks involve some degree of uncertainty
+
+4. The kind of work I find most interesting and challenging is...
+
+5. In the past iteration I have learned new things from the team
+    - Yes
+    - No
+
+6. During the past iteration, while working, I have laughed
+    - Many times
+    - Just a few times
+    - Never. Work crushes any thought of laughter
+
+7. Connectedness
+    - I am engaged and feel connected to the team
+    - It's so so...a bit hit and miss
+    - I often feel isolated and on my own
+
+8. Support
+    - I feel strongly supported by people, processes, tools and resources in doing my job
+    - I have just enough support to get by
+    - There is little support given and I am often stuck
+
+9. I feel confident to voice my ideas and challenge other people's opinion/approach/solution even if it is different to mine
+    - Always
+    - Often
+    - Sometimes
+    - Rarely
+    - Never
+
+10. Personal well-being
+    - I have routines that create positive mental and physical health
+    - I'm OK...just plodding along
+    - I often feel unwell physically, mentally or both
+
+11. I feel the work I do is recognized and appreciated
+    - Yes, I feel recognized and appreciated
+    - So so, it could be better
+    - No, I toil in the background like a nameless cog in an ever turning machine
+
+12. Recognition for me looks like...
+
+13. Anything else you want to add/improve
+
+14. What could we do next iteration to make you happier?
+```
+
+#### 过程
+
+- 回顾和评估上一个迭代遇到的的问题、挑战和改进机会。
+- 制定行动计划。
+- 回顾上一次迭代总结会制定的行动计划的进展。
+
+#### 输入
+
+- 迭代期间的工作过程和团队合作的经验
+- 遇到的问题和挑战
+
+#### 输出
+
+- 改进行动计划（plans，**怎么做**）和承诺（commitments，**什么时候完成**）
+
+### 4.2. Product Backlog Refinement，待办列表梳理会议
+
+#### 输入
+
+- Product backlog
+
+#### 输出
+
+- 更新后的Product backlog
+- 描述详细且明确的任务
+- 任务的工作量估算和优先级评估
+
+#### 过程
+
+- 澄清需求。
+- 估算工作量和确定优先级。
+
+Refinement是加工、提炼的意思，refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用refinement。在Scrum里，其实就是对下阶段的需求做一个讨论、澄清、细化的一个活动，使得团队能对后续阶段的需求能达成共识，尽量避免团队因为对需求理解的不一致所导致的各类问题，并帮助团队在下个迭代开始的时候更快进入开发状态，它一般是发生在下个迭代开始前的一段时间里。
 
 需要注意的是，refinement并不止在会议上发生，需求的梳理其实不仅仅只发生在每个迭代的refinement的会议上，它其实应该是贯彻发生在整个软件开发的全过程中。只是在refinement 会议上做了最大量的需求梳理的工作，然后从sprint的开始，花费在需求梳理上的时间会慢慢减少，花费在软件设计开发上的时间慢慢增加，到了sprint得后期就慢慢没有了需求方面的工作而只剩下开发上面的工作了。
 
@@ -275,7 +353,7 @@ refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用
 
 - 暂缓对别人观点的评论
 - 鼓励异想天开的想法
-- 可以借“题”发挥，别人的观点上继续延生
+- 可以在别人的观点上继续延伸
 - 专注在story上，不要离题
 - 图文并茂，鼓励使用可视化的方式
 - 做加法，点子越多越好（先不关注点子的质量）

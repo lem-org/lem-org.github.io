@@ -101,7 +101,7 @@ authors:
 
 会议的实践原则只有一个：让这个会议能高效地履行职责，避免浪费与会人员的时间和精力。
 
-![plantuml](./plantuml/a2a614a793c1962fe96933472e0b4cdd.svg)
+![plantuml](./plantuml/931e405947ce2966b8538903a17f33fb.svg)
 
 ### 4.2. Backlog Refinement
 

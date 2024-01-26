@@ -18,9 +18,9 @@ def generate_md5_hash(text):
     md5_hash.update(text.encode('utf-8'))
     return md5_hash.hexdigest()
 
-def generate_svg_from_plantuml(code_block, server_url):
+def generate_svg_from_plantuml(plantuml_code_block, server_url):
     # 将文本以UTF-8编码
-    encoded_text = code_block.encode('utf-8')
+    encoded_text = plantuml_code_block.encode('utf-8')
     # 使用Deflate算法进行压缩
     compressed_text = zlib.compress(encoded_text)
     # 将压缩后的文本重新编码为ASCII，并使用类似Base64的字符映射
@@ -37,17 +37,9 @@ def generate_svg_from_plantuml(code_block, server_url):
     else:
         return None
 
-def encode_plantuml(data):
-    encoding_table = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_"
-    encoded_data = ""
-    for b in data:
-        encoded_data += encoding_table[(b >> 4) & 0x0F]
-        encoded_data += encoding_table[b & 0x0F]
-    return encoded_data
-
-def insert_svg_into_markdown(svg, code_block, markdown_text, asset_filename):
+def insert_svg_into_markdown(svg, plantuml_code_block, markdown_text, asset_filename):
     img_tag = f'![plantuml](./plantuml/{asset_filename}.svg)'
-    updated_text = markdown_text.replace(f'```plantuml\n{code_block}\n```', img_tag)
+    updated_text = markdown_text.replace(f'```plantuml\n{plantuml_code_block}\n```', img_tag)
     return updated_text
 
 def generate_svg_images_from_markdown(src_file_path, new_file_path, server_url):

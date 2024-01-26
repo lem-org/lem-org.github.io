@@ -4,7 +4,9 @@ authors:
   - "wu_hong"
 ---
 
-很多时候我不得不怀疑很多理论听起来离实际工作如此遥远，要么是发表这个理论的人是在故弄玄虚，要么就是他需要把这件事讲的足够抽象才能让它兼容尽可能多的具体案例。很多管理学的理论，在现在看来仿佛就是一群人为了博得名利，把一些理所当然的生活逻辑，我们很不不会认为能后上升为理论的事情写到了书里面去。在那个很多年前刚接触敏捷的我看来就是如此，随着经手的项目越来越多，才发觉其实这帮人没有把敏捷在敏捷宣言中讲明白，简而言之，它希望告诉软件团队，要想成事，你得从战略上想着如何通过频繁尝试来避免事情不成，它强调的是频繁，它强调的不是快。
+> 很多时候我不得不怀疑很多理论听起来离实际工作如此遥远，要么是发表这个理论的人是在故弄玄虚，要么就是他需要把这件事讲的足够抽象才能让它兼容尽可能多的具体案例。很多管理学的理论，看起来仿佛就是一些人为了塑造影响力，把一些理所当然的生活逻辑，我们很不会认为能上升为理论的事情写到了书里面去。在那个很多年前刚接触敏捷的我看来就是如此，随着经手的项目越来越多，才发觉其实这帮人没有把敏捷在敏捷宣言中讲明白，简而言之，它希望告诉软件团队，要想成事，你得从战略上想着如何通过频繁尝试来避免事情不成.
+
+它强调的是频繁，不是快。我们期待的是开开心心地不仅把事情做成了，还做漂亮了。
 
 ## 1. 成事
 
@@ -32,7 +34,7 @@ authors:
 
 上面所提到的种种诉求互相制约，就形成了一个三角：
 
-![plantuml](./plantuml/f2fc1203bd4f12947b981a2c8d989273.svg)
+![plantuml](./plantuml/520fa0bdc468c108a12acbb40c8bdc81.svg)
 
 ## 2. 从人类历史中找到成事的最佳实践
 
@@ -103,25 +105,44 @@ authors:
 
 ![plantuml](./plantuml/adaff301797696787110dd1602750288.svg)
 
-### Sprint Planning，迭代计划会
+### 4.2. Sprint Planning，迭代计划会
 
-#### 输入
+#### 4.2.1. 输入
 
 - Product Backlog
 - Team Velocity
 
-#### 输出
+#### 4.2.2. 输出
 
 - Sprint Backlog
     - Commitment：Sprint的目标（Sprint Goal）
     - 任务的工作量估算
     - 计划（任务列表）：Todo items
 
-### Sprint Retrospective，迭代总结会
+### 4.3. Sprint Retrospective，迭代总结会
 
-#### 会前准备
+#### 4.3.1. 会前准备
 
-1. 收集Team Sentiment Survey（团队情绪调查）
+1. 创建Retrospective Board
+
+风格：**Went Well - Shoutouts - To be Improved - Actions**
+
+风格：**4Ls Retrospective - Liked, Learned, Lacked, & Longed For**
+
+Retrospectives are an essential tool for highlighting opportunities for change, generating process improvements, and generally ensuring a team is moving in the right direction. There are some standard models for running retrospectives, but a slight change in the approach can lead to dramatically improved outcomes. One model that has created meaningful results for many teams is the 4Ls Retrospective.
+The 4Ls Retrospective model is an attempt to capture the natural thoughts that team members might have that can lead to continuous improvement. We naturally tend to think and share in terms of things that we appreciate, lessons learned, things that were missing, and that which we wish we had. 4Ls leverages that natural thinking in a focused and helpful way.
+
+- Liked
+    This may be the most simple. What were the positive aspects of the sprint that the team enjoyed or appreciated? This can encompass any aspect of the sprint, including actions, processes, or achievements. What went better than expected? This is all about the positive.
+- Learned
+    Any good sprint includes opportunities to learn new things. Were there any new discoveries that stood out? Everything is on the table here, from technical findings to interpersonal learnings. It can be results of formal experiments or things that just bubbled to the surface.
+- Lacked
+    It would be a rare event to finish a sprint and find nothing lacking. Was there something missing from the last iteration? Could something have been done better? Was there a resource lacking that would have made things run smoother?
+- Longed​ ​For​
+    There is a subtle, yet essential difference between "lacked" and “longed for." In the previous category, the team identified things that they saw were missing. Now it is time to dream about things the team wished were possible, or tools they wished existed or were available to them. These are things that may or may not be possible but would improve the chances of completing a successful project.
+
+
+2. 收集Team Sentiment Survey（团队情绪调查）
 
 ```markdown
 1. How's your overall happiness for the past 2 weeks (more smiles means more happiness)
@@ -181,45 +202,46 @@ authors:
 14. What could we do next iteration to make you happier?
 ```
 
-#### 过程
+#### 4.3.2. 过程
 
 - 回顾和评估上一个迭代遇到的的问题、挑战和改进机会。
 - 制定行动计划。
 - 回顾上一次迭代总结会制定的行动计划的进展。
 
-#### 输入
+#### 4.3.3. 输入
 
-- 迭代期间的工作过程和团队合作的经验
 - 遇到的问题和挑战
 
-#### 输出
+#### 4.3.4. 输出
 
 - 改进行动计划（plans，**怎么做**）和承诺（commitments，**什么时候完成**）
 
-### 4.2. Product Backlog Refinement，待办列表梳理会议
+### 4.4. Product Backlog Refinement，待办列表梳理会议
 
-#### 输入
+#### 4.4.1. 输入
 
 - Product backlog
 
-#### 输出
+#### 4.4.2. 输出
 
 - 更新后的Product backlog
 - 描述详细且明确的任务
 - 任务的工作量估算和优先级评估
 
-#### 过程
+#### 4.4.3. 过程
 
 - 澄清需求。
 - 估算工作量和确定优先级。
+
+#### 4.4.4. 会议职责
 
 Refinement是加工、提炼的意思，refinement在之前还有一个名字，叫做grooming，后来scrum联盟改用refinement。在Scrum里，其实就是对下阶段的需求做一个讨论、澄清、细化的一个活动，使得团队能对后续阶段的需求能达成共识，尽量避免团队因为对需求理解的不一致所导致的各类问题，并帮助团队在下个迭代开始的时候更快进入开发状态，它一般是发生在下个迭代开始前的一段时间里。
 
 需要注意的是，refinement并不止在会议上发生，需求的梳理其实不仅仅只发生在每个迭代的refinement的会议上，它其实应该是贯彻发生在整个软件开发的全过程中。只是在refinement 会议上做了最大量的需求梳理的工作，然后从sprint的开始，花费在需求梳理上的时间会慢慢减少，花费在软件设计开发上的时间慢慢增加，到了sprint得后期就慢慢没有了需求方面的工作而只剩下开发上面的工作了。
 
-整个refinement的过程也可以简单看成发散+收敛的过程：
+整个refinement的过程也可以简单看成发散加收敛的过程：
 
-#### 4.2.1. 发散
+#### 4.4.5. 发散
 
 发散的意思就是在对一个story做梳理的前期，我们需要针对目标story做发散思维的讨论，尽力考虑到各个方面的问题、假设、困难，防止专家思维的局限，这是个头脑风暴的过程。
 
@@ -237,7 +259,7 @@ Refinement是加工、提炼的意思，refinement在之前还有一个名字，
 - **FURPS+** 更像一个checklist，它能提醒我们在发散的时候要从这些角度去思考，避免重大遗漏。
 - **SQA** 在实际中更加常用和易用。SQA就是通过大家一起回答目标story的三个问题来澄清我们的需求。这里会有很多疑问和假设，PO需要在团队讨论的过程中随时解答团队的疑问和澄清假设，不能当场澄清的，团队和PO需要会后带回去，在下个迭代planning meeting前完成澄清。
 
-#### 4.2.2. 收敛
+#### 4.4.6. 收敛
 
 在充分发散的基础上我们就要开始收敛，这样我们才能拿到refinement最终的结果，这就是收敛的过程。为了帮助收敛，我们常用的手段有：
 - 明确产出结果形式
@@ -252,7 +274,7 @@ Refinement是加工、提炼的意思，refinement在之前还有一个名字，
 
 不是，这些会对应的目的能达成的话，如果有其他更好的形式，那完全okay，这些会甚至都可以完全取消。
 
-![plantuml](./plantuml/4843c14564d71cfb54cbb473a7cadfec.svg)
+![plantuml](./plantuml/73c6afb46db87f03980be03a66226267.svg)
 
 - Sprint Planning，迭代计划会 - 传达信息会议
 - Daily Scrum，每日站会 - 定期更新会议

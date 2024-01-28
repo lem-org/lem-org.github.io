@@ -1,6 +1,0 @@
-#!/bin/bash
-
-./auto/preproccess.sh
-
-git add .
-git commit --amend --no-edit

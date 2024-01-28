@@ -4,16 +4,78 @@ authors:
   - "wu_hong"
 ---
 
-一个企业中组织架构和员工就如同是一个国家的体制和人民。国家的体制取决于地域范围，人民认知和生产力水平。
 企业的**组织架构**和**项目管理方法**应该顺应企业规模，员工能力和产品需求，而敏捷，就是软件项目管理的顶级成功哲学。
 
 ![](./img/1706366137860.png)
 
-## 敏捷关注的是如何把能带来价值的事情又快又好地做成
+## 敏捷发展史
 
-敏捷这个术语是2001年敏捷联盟在[敏捷宣言](https://agilemanifesto.org/iso/zhchs/manifesto.html)中提出的，包含两部分：4个价值观和12条原则。
+{{< timeline >}}
 
-### 敏捷宣言中的4个价值观
+{{< timelineItem subheader="1946年">}}
+计算机问世。
+{{< /timelineItem >}}
+
+{{< timelineItem subheader="1957年">}}
+迭代和增量式软件开发方法（iterative and incremental software development methods）出现。软件行业在计算机问世10年后就搞清楚了如何运作一个商业的软件项目。
+{{< /timelineItem >}}
+
+{{< timelineItem subheader="1970年">}}
+渐进式项目管理（evolutionary project management）和适应性软件开发（adaptive software development）方法出现。
+{{< /timelineItem >}}
+
+{{< timelineItem subheader="1990年">}}
+传统重型软件开发方法（heavyweight methods），通常被统称为瀑布（waterfall）模型，在当时被批评为：
+<pre>
+• 过于刻板（overly regulated）
+• 计划过度（over planned）
+• 过度控制（over micromanaged）
+</pre>
+因此，一系列轻量级软件开发方法（lightweight software development methods）开始出现：
+<pre>
+<b>1991年</b>
+  • 快速应用开发（rapid application development，RAD）
+<b>1994年</b>
+  • 统一过程（unified process，UP）
+  • 动态系统开发方法（dynamic systems development method，DSDM）
+<b>1995年</b>
+  • Scrum
+<b>1996年</b>
+  • Crystal Clear
+  • 极限编程（extreme programming，XP）
+<b>1997年</b>
+  • 特性驱动开发（feature-driven development，FDD）
+</pre>
+尽管这些方法都源于《敏捷宣言》（Agile Manifesto）发布之前，但现在被统称为敏捷软件开发方法。
+{{< /timelineItem >}}
+
+{{< timelineItem subheader="1991年">}}
+不仅是软件行业，制造业以及企业管理也开始出现类似的、源自精益管理（Lean management）思想的变革。
+{{< /timelineItem >}}
+
+{{< timelineItem subheader="2001年">}}
+在美国犹他州雪鸟度假村，17个软件从业专家聚在一起，组成了敏捷联盟（Agile Alliance），讨论研究了一遍从软件行业诞生以来的所有轻量级开发方法，然后发布了敏捷宣言。
+{{< /timelineItem >}}
+
+{{< timelineItem subheader="2005年">}}
+由Cockburn和Highsmith领导的一个团队撰写了项目管理原则（project management principles）的附录，即《PM相互依存宣言（PM Declaration of Interdependence）》，以指导按照敏捷软件开发方法进行软件项目管理。
+{{< /timelineItem >}}
+
+{{< timelineItem subheader="2009年">}}
+由Martin领导的一个团队撰写了软件开发原则的扩展，即《软件工匠宣言（Software Craftsmanship Manifesto）》，以指导按照专业行为进行敏捷软件开发。
+{{< /timelineItem >}}
+
+{{< timelineItem subheader="2011年">}}
+敏捷联盟创建了《敏捷实践指南（Guide to Agile Practices）》（2016年更名为《敏捷词汇表（Agile Glossary）》），这是一个不断发展的开源文集，包含了敏捷实践、术语和元素的工作定义，以及来自全球敏捷从业者社区的解释和经验指南。
+{{< /timelineItem >}}
+
+{{< /timeline >}}
+
+## 敏捷关注的是如何把能带来价值的事情又灵活又好地做成
+
+敏捷这个术语是2001年敏捷联盟在[敏捷宣言](https://agilemanifesto.org/iso/zhchs/manifesto.html)中提出的，包含两部分：价值观和原则。
+
+### 敏捷宣言中的价值观
 
 - **个体和互动** 高于 **流程和工具**
     > Individuals and interactions over processes and tools
@@ -24,7 +86,7 @@ authors:
 - **响应变化** 高于 **遵循计划**
     > Responding to change over following a plan
 
-### 敏捷宣言中的12条原则
+### 敏捷宣言中的原则
 
 12条原则其实是4个价值观的衍生。
 
@@ -51,9 +113,9 @@ authors:
 > 一旦人了解了某种知识，就很难站在没掌握这个知识的角度，去思考和理解他人，也就是被知识诅咒了。<br>
 > — Robin Hogarth
 
-无论采用什么样的工作哲学和方法论，终极目标都是把能带来**价值**的事情又**快**又**好**地**做成**，因此不妨先忘记敏捷这个术语，以终为始，由果索因，找找什么样的原因才能导致这个结果。
+无论采用什么样的工作哲学和方法论，目的都是把能带来**价值**的事情又**灵活**又**好**地**做成**，因此不妨先忘记敏捷这个术语，以终为始，由果索因，找找什么样的原因才能导致这个结果。
 
-## 做什么事，这个问题是首要问题
+## 首要问题是做什么事
 
 什么是有价值的事情？怎么判断一件事情有没有价值？怎么快速地验证一件事情有没有价值？
 
@@ -64,7 +126,7 @@ authors:
 
 > MECE原则（ Mutually Exclusive and Collectively Exhaustive）, 彼此排斥且无遗漏/相互独立且完全穷尽
 
-5W2H就是遵循MECE原则的一种分析方法，它提供了一种问题拆解的角度。
+5W2H就是遵循MECE原则的一种分析方法，它提供了一种问题拆解的角度，所以问题的拆解都可以是5W2H的子集。
 
 ```plantuml
 @startmindmap
@@ -79,7 +141,7 @@ authors:
 @endmindmap
 ```
 
-其中，Why，What，How much就是“做什么产品”构成了问题的答案。
+“做什么产品”关注的是Why，What，和How much。
 
 ```plantuml
 @startmindmap
@@ -91,16 +153,16 @@ authors:
 @endmindmap
 ```
 
-寻找答案的过程分为2步：
+“做什么产品”这个问题是贯穿始终且持续调整的：
 
 - 通过产品探索（Product Discovery）确定产品的初始需求。
 - 通过不断的“积小胜为大胜”调整产品战略直至取得商业成功。
 
-所以，“做什么产品”这个问题是贯穿始终且持续调整的，而敏捷及其方法论，讲的就是如何“积小胜为大胜”。
+而敏捷及其方法论，讲的就是如何“积小胜为大胜”。
 
-## 拆解目标：把能带来价值的事情又快又好地做成
+## 拆解目标：把能带来价值的事情又灵活又好地做成
 
-### 目标之一：事情能成是底线
+### 目标1：事情能成是底线
 
 ```plantuml
 @startmindmap
@@ -109,17 +171,17 @@ authors:
 @endmindmap
 ```
 
-### 目标之一：产品得有价值
+### 目标2：事情能产生价值
 
-产品价值 = 用户价值 + 商业价值 + 社会价值
+`价值 = 用户价值 + 商业价值 + 社会价值`
 
-- 用户价值：帮助需求侧用户/客户解决什么问题，再直白点就是帮用户/客户赚了/省了多少钱。
-- 商业价值：作为产品供应侧，你从这笔交易中的获利，比较常见的如用户量、生产资料、财务收入、客户满意度等。
-- 社会价值：产品、服务或解决方案对社会的影响和贡献，比如可持续发展、环境保护、社会责任等。
+- **用户价值**：帮助需求侧用户/客户解决什么问题，再直白点就是帮用户/客户赚了/省了多少钱。
+- **商业价值**：作为产品供应侧，你从这笔交易中的获利，比较常见的如用户量、生产资料、财务收入、客户满意度等。
+- **社会价值**：产品、服务或解决方案对社会的影响和贡献，比如可持续发展、环境保护、社会责任等。
 
-### 目标之一：事情要做的又快又好
+### 目标3：事情要做的又灵活又好
 
-效率高就是快，质量高就是好。
+效能高就是灵活，质量高就是好。
 
 ### 目标之间互相制约
 
@@ -135,73 +197,24 @@ authors:
 @endmindmap
 ```
 
+在竞争变化的商业环境中，如果实现的不是有价值的需求，哪怕你在成本、时间、范围和质量方面都很完美，这个产品做出来也是没有人使用的，一个没有人使用的东西，也就没有意义。
+
+敏捷强调的是价值和质量，首先做出来的东西对客户是有价值的，且能满足客户的。在这个基础上变化是随时都有可能发生的，所以约束条件范围、时间、成本根据实际情况调整，提升客户的价值。
+
+虽然不断的变化可能会给我们的进度、成本带来一定的冲击，但这就要求我们做好变化管理，提前识别和预判客户有价值的需求。敏捷团队最终的成功还是要看可用的产品。
+
 ## 循着目标找方案
-
-{{< timeline >}}
-
-{{< timelineItem >}}
-1946年，计算机问世。
-{{< /timelineItem >}}
-
-{{< timelineItem>}}
-1957年，迭代和增量式软件开发方法（iterative and incremental software development methods）出现。软件行业在计算机问世10年后就搞清楚了如何运作一个商业的软件项目。
-{{< /timelineItem >}}
-
-{{< timelineItem>}}
-1970年，渐进式项目管理（evolutionary project management）和适应性软件开发（adaptive software development）方法出现。
-{{< /timelineItem >}}
-
-{{< timelineItem>}}
-从1990年开始，传统重型软件开发方法（heavyweight methods），通常被统称为瀑布（waterfall）模型，在当时被批评为：
-<ul>
-    <li>过于刻板（overly regulated）</li>
-    <li>计划过度（over planned）</li>
-    <li>过度控制（over micromanaged）</li>
-</ul>
-因此，一系列轻量级软件开发方法（lightweight software development methods）开始出现：
-
-<ul>
-    <li>1991年，快速应用开发（rapid application development，RAD）</li>
-    <li>1994年，统一过程（unified process，UP）和动态系统开发方法（dynamic systems development method，DSDM）</li>
-    <li>1995年，Scrum</li>
-    <li>1996年，Crystal Clear和极限编程（extreme programming，XP）</li>
-    <li>1997年，特性驱动开发（feature-driven development，FDD）</li>
-</ul>
-
-
-尽管这些方法都源于《敏捷宣言》（Agile Manifesto）发布之前，但现在被统称为敏捷软件开发方法。
-{{< /timelineItem >}}
-
-{{< timelineItem>}}
-从1991年开始，不仅是软件行业，制造业以及企业管理也开始出现类似的、源自精益管理（Lean management）思想的变革。
-{{< /timelineItem >}}
-
-{{< timelineItem>}}
-2001年，在美国犹他州雪鸟度假村，17个软件从业专家聚在一起，组成了敏捷联盟（Agile Alliance），讨论研究了一遍从软件行业诞生以来的所有轻量级开发方法，然后发布了敏捷宣言。
-{{< /timelineItem >}}
-
-{{< timelineItem>}}
-2005年，由Cockburn和Highsmith领导的一个团队撰写了项目管理原则（project management principles）的附录，即《PM相互依存宣言（PM Declaration of Interdependence）》，以指导按照敏捷软件开发方法进行软件项目管理。
-{{< /timelineItem >}}
-
-{{< timelineItem>}}
-2009年，由Martin领导的一个团队撰写了软件开发原则的扩展，即《软件工匠宣言（Software Craftsmanship Manifesto）》，以指导按照专业行为进行敏捷软件开发。
-{{< /timelineItem >}}
-
-{{< timelineItem>}}
-2011年，敏捷联盟创建了《敏捷实践指南（Guide to Agile Practices）》（2016年更名为《敏捷词汇表（Agile Glossary）》），这是一个不断发展的开源文集，包含了敏捷实践、术语和元素的工作定义，以及来自全球敏捷从业者社区的解释和经验指南。
-{{< /timelineItem >}}
-
-{{< /timeline >}}
 
 ```plantuml
 @startmindmap
 * 目标
     * 如何确保“事情能做成”？
         * 构建价值反馈
+            * 最小可行产品（Minimum Viable Product，MVP）
     * 如何确保“做的事情能带来价值”？
         * 按照价值导向设定任务优先级
-    * 如何确保“事情做的又快又好”？
+    * 如何确保“事情做的又灵活又好”？
+        * 构建效能反馈
         * 构建质量反馈
         * 及早反馈，及时适度调整
 @endmindmap
@@ -210,308 +223,36 @@ authors:
 > “你生命中最大的挑战是什么？”“确保有一个可纠错的反馈闭环。”<br>
 > — 伊隆·马斯克（Elon Musk）
 
-如果你是一个人在做事，没有团队，那么读到这里就够了，你关注的是任务管理。
+效能重视组织目标的达成，重视结果，追求**做对的事情(Doing the Right Things)**。
+效率强调资源的有效利用，指以最少的投入，得到最大的产出，也就是**把事情做好(Doing Things Right)**。
 
-```plantuml
-@startmindmap
-* 任务管理
-    * 按照价值导向设定任务优先级
-    * 构建可纠错的反馈闭环
-        * 构建价值反馈
-        * 构建质量反馈
-            * 提前定义验收标准
-    * 缩短反馈循环时间
-        * 及早反馈，及时适度调整
-@endmindmap
-```
+如果你是一个人在做事，没有团队，那么到此就够了，做好反馈管理就行，不要脱离市场闭门造车。
 
-如果是团队，那么就需要思考从个体扩展为团队后，需要额外考虑哪些因素。一个大脑变成了多个大脑，虽然“多一个人，多一份力量”，但是多个大脑各自知道什么，知道到什么程度，会解决什么什么问题，能解决多难的问题互相并不完全清楚，因此额外要考虑的因素就是协作。
-
-```plantuml
-@startmindmap
-* 协作管理
-    * 信息同步
-    * 快速决策
-    * 依赖管理
-    * 协同并行工作
-@endmindmap
-```
+如果是一个团队，从个体扩展为团队后，虽然“多一个人，多一份力量”，但是个体之间如何协作是需要额外继续考虑的。
 
 <!--
 https://www.zhihu.com/question/400725089/answer/1879461212
 -->
 
-敏捷中提到了很多点，敏捷的思想是适合于全天下所有的项目的，只是不同的项目在应用敏捷时侧重点不同。火箭就不能快速验证，软件结合的如何敏捷，要求一个项目全面敏捷是教条主义。
-
-敏捷的底层思维：
-
-- 精益思维
-- 批判性思维
-- 结构化思维
-- 复盘思维
-- 经验主义，随机应变
-
-不同优先级的颜色不同，颜色越红，优先级越高
-
 ```plantuml
 @startmindmap
 * 敏捷
-    * 任务管理
+    * 反馈管理
         * 按照价值导向设定任务优先级
         * 构建可纠错的反馈闭环
             * 构建价值反馈
             * 构建质量反馈
                 * 提前定义验收标准
+            * 构建效能反馈
         * 缩短反馈循环时间
             * 及早反馈，及时适度调整
     * 协作管理
         * 信息同步
         * 快速决策
-        * 依赖管理
-        * 协同并行工作
+        * 相互合作
 @endmindmap
 ```
 
-应对变化，控制进展
+这就是敏捷的关键所在，不同的敏捷方法论只是在针对如何做好反馈管理和协作管理上提供了不同的实践方式。
 
-1. 迭代
-    有机会迭代就迭代，没机会迭代就不要迭代
-
-1. 协作
-
-
-
-1. 避免延迟决策
-
-1. 避免延迟风险暴露
-
-
-## 敏捷方法论之Scrum
-
-敏捷本身只是一组价值观和原则，符合价值观和原则的实践都属于敏捷方法论（Agile methodology）。
-
-所谓Sprint Backlog，就是任务列表，列表代表着有序，有序代表着优先级不同，因此设定好优先级的任务列表就是迭代计划。
-
-```plantuml
-@startmindmap
-* 团队的成事哲学
-    * 设定计划
-        * Sprint backlog
-        * Sprint planning meeting
-    * 排优先级
-        * Product backlog
-    * 快速反馈
-        * Sprint
-        * Potential shippable product increment(PSPI)
-    * 验收
-        * Sprint Review
-    * 同步信息
-        * Sprint Refinement meeting
-        * Daily Standup
-    * 协作效率
-        * Sprint retro meeting
-        * Value Stream Mapping
-    * 执行
-        * Lead Time
-        * Circle Time
-        * Velocity
-@endmindmap
-```
-
-### 高效会议
-
-会议能履行职责，同时避免浪费与会人员的时间。
-
-10人以下的，角色完备的小规模团队是最佳团队配置，团队越小，规矩越少，效果越高。
-
-```plantuml
-@startmindmap
-*:= Sprint会议
-;
-
-**:== 迭代计划会（Sprint Planning）
-
-=== 输入
-* Product Backlog
-* Team Velocity
-
-=== 输出
-* Sprint Backlog
-### 有哪些任务
-### 每个任务的优先级
-### 每个任务的工作量估算
-### Sprint的目标（Sprint Goal/Commitment）
-;
-
-**:== 每日站会（Daily Scrum）
-
-=== 输入
-* 团队成员的工作进展
-* 遇到的问题（Issues）和障碍（obstacles），细节讨论放到站会之后
-
-=== 输出
-* 更新后的Task board
-* 问题和障碍的解决计划：找谁（Who）在什么时间点前（When）解决什么问题（What）
-
-=== 过程
-# 按照Task board逐一过卡
-# 如有通知，则宣告
-# 如有问题需要讨论则相关人留下，其它人解散
-;
-
-**:== 迭代回顾会（Sprint Review）
-
-=== 输入
-* 已完成的工作成果
-* 利益相关者的反馈
-
-=== 输出
-* 更新后的Product backlog
-* 下一个Sprint的优先事项
-
-=== 过程
-# 展示和演示已完成的工作成果给利益相关者。
-# 收集利益相关者的反馈。
-# 评估已完成工作与产品愿景的符合程度。
-# 确定下一步的优先事项和调整Product backlog。
-;
-
-**:== 迭代总结会（Sprint Retrospective）
-
-=== 输入
-* 创建Retrospective Board：Liked - To be Improved - Longed For - Action
-* 收集团队情绪调查（Team Sentiment Survey）的填写结果
-* 遇到的问题和挑战
-
-=== 输出
-* 改进行动计划（How）和承诺（Who, When）
-
-=== 过程
-# 5分钟写卡片
-# 快速浏览所有卡片，确保团队能理解每一个卡片的内容
-# 3分钟投票（每人有5票），按照他们认为最重要或最值得关注的卡片投票
-# 根据投票结果，从票数最高的卡开始讨论，探讨其背后的原因和可能的解决方案，并制定行动计划
-# 回顾团队情绪调查和上一次迭代总结会制定的行动计划
-;
-
-**:== 待办列表梳理会议（Product Backlog Refinement）
-
-=== 输入
-* Product backlog
-
-=== 输出
-* 更新后的Product backlog
-* 描述详细且明确的任务
-* 任务的工作量估算和优先级评估
-
-=== 过程
-# 澄清需求，确定验收标准（Acceptance Criteria，AC）
-# 估算工作量和确定优先级
-;
-
-@endmindmap
-```
-
-Refinement是加工、提炼的意思，Refinement在之前还有一个名字，叫做Grooming，后来Scrum联盟改用Refinement。在Scrum里，其实就是对下阶段的需求做一个讨论、澄清、细化的一个活动，使得团队能对后续阶段的需求能达成共识，尽量避免团队因为对需求理解的不一致所导致的各类问题，并帮助团队在下个迭代开始的时候更快进入开发状态，它一般是发生在下个迭代开始前的一段时间里。
-
-Refinement并不止在会议上发生，需求的梳理其实不仅仅只发生在每个迭代的Refinement的会议上，它其实应该是贯彻发生在整个软件开发的全过程中。只是在Refinement 会议上做了最大量的需求梳理的工作，然后从Sprint的开始，花费在需求梳理上的时间会慢慢减少，花费在软件设计开发上的时间慢慢增加，到了Sprint得后期就慢慢没有了需求方面的工作而只剩下开发上面的工作了。
-
-整个Refinement的过程也可以简单看成发散加收敛的过程。
-
-发散就是针对story做发散思维的讨论，尽力考虑到各个方面的问题、假设、困难，防止专家思维的局限，这是个头脑风暴的过程。
-PO和架构师需要在团队讨论的过程中随时解答疑问，不能当场澄清的，PO需要会后带回去，在迭代计划会前完成澄清。
-
-问题应该是多角度的：
-- 功能性的需求（Functional Requirement，FR）
-- 跨功能需求（Cross-Functional Requirements，CFR）/ 非功能性需求（Non-functional requirement，NFR）：可测试性，可维护性，可用性，兼容性，性能，稳定性
-
-在充分发散的基础上就可以开始收敛，明确验收标准（Acceptance Criteria，AC）。
-
-## 怎么才能做好敏捷
-
-敏捷存在的意义不是为了让开发团队遵循敏捷，这不是敏捷的目标，只是手段。敏捷价值观和原则，敏捷的各种方法论，目标是为了能成事，只要是能成事的实践都是好的实践。
-
-### Scrum中的各种会议是不是必须都要按时按点举行？
-
-不是，这些会对应的目的能达成的话，如果有其他更好的形式，那完全okay，这些会甚至都可以完全取消。
-
-```plantuml
-@startmindmap
-* 会议性质
-
-**:==传达信息会议， notice
-- 信息流是单向的
-- 通知结果
-- 答疑
-;
-
-**:==汇报/评审会议, reporting/review
-- 汇报人依次汇报：个人陈述+评审
-- 氛围不会太友好
-- 汇报主题：
-    - 工作进度
-    - 调查报告
-    - 毕业答辩
-;
-
-**:==定期更新会议, updates
-- 比如站会，每个人更新进展，表达诉求
-- 会议一定要精简，只说问题，不讨论问题解决方案
-;
-
-**:==问题解决会议, problem solving
-- 信息流是交叉多向的
-- 目的是寻找解决方案，确定下一步行动计划
-- 战略规划
-- 属于创造性工作
-- 时间可能很久
-- 先发散，再收敛
-;
-
-@endmindmap
-```
-
-- Sprint Planning，迭代计划会 - 传达信息会议
-- Daily Scrum，每日站会 - 定期更新会议
-- Sprint Review，迭代回顾会 - 汇报/评审会议
-- Sprint Retrospective，迭代总结会 - 问题解决会议
-- Backlog Refinement，待办列表梳理会议 - 问题解决会议
-
-相比于会议，只要有更高效且能达成相同效果的形式，那么这些会议都可以取消，会议是一种同步沟通的手段，其他的形式那可能是基于邮件/task board/即时通讯等异步沟通手段，同步和异步的差异其实就是会议特有的另外一个功能：会议是可以现场收集到所有与会人员确认信息被收到并理解的回执的，就如同你发了一个短信有短信回执一样，作为会议的主持人你能确切地从与会者参会的表现获得他收到信息的证据。
-
-- 团队人数过多（>10）的时候，这种回执的效果会变的很差，这个时候全员会议应该尽可能少，应该依赖异步沟通+强有力的task board management来完成。
-- 当团队人数过少（<=3）的时候，沟通效率很高，因此会议应该尽量少。
-- 凡是需要团队外部参与的会议，不应该被轻易取消。
-- 所有的会议应该只邀请必要的与会人员。
-
-### 产品的需求稳定不变，有必要采用敏捷吗？
-
-### 如何提高组织对敏捷的认知
-
-- 对于团队内非管理岗位的成员，敏捷的认知普及要教条一些，以遵循实践原则为主。
-- 对于管理岗位的成员，敏捷的认知要进阶，要学会知其本源灵活应用。
-
-### 大型组织内如何实践敏捷
-
-怎么算是大型组织？规模在100人以上的团队都算作大型组织。
-
-#### 依赖管理
-
-#### 需求管理
-
-#### 组织拓扑
-
-### 如何评估一个组织的敏捷程度
-
-#### 敏捷成熟度模型（Agile Maturity Model）
-
-业内有很多敏捷成熟度模型的定义，即从多个维度分别进行打分。
-
-#### 价值流图
-
-价值流图的作用主要是为了在评估过程中帮助梳理团队的工作流，并识别出痛点，类似的，在特斯拉，伊隆·马斯克要求流水线上每个环节必须有对应时长的显式，这样可以持续的看到在哪个环节耗时比较久，进行改进生产线。
-
-#### 评估手段
-
-- 观察
-- 访谈
+敏捷强调的是灵活，不是快，灵活意味着能以最小的代价应对变化。
